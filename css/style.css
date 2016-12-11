@@ -1,0 +1,105 @@
+body {
+    padding-top: 60px;
+    font-family: 'Jura', sans-serif;
+}
+
+.nav-up {
+    top: -51px;
+}
+
+nav {
+    top: 0;
+    transition: top 0.3s ease-in-out;
+}
+
+.my_brand {
+    -webkit-animation: preloader 1.3s infinite linear;
+    -moz-animation: preloader 1.3s infinite linear;
+    -ms-animation: preloader 1.3s infinite linear;
+    -o-animation: preloader 1.3s infinite linear;
+    animation: preloader 1.3s infinite linear;
+}
+
+@-webkit-keyframes preloader {
+    25% {-webkit-transform: rotate(45deg);}
+    75% {-webkit-transform: rotate(-45deg);}
+}
+@-moz-keyframes preloader {
+    25% {-moz-transform: rotate(45deg);}
+    75% {-moz-transform: rotate(-45deg);}
+}
+@-ms-keyframes preloader {
+    25% {-ms-transform: rotate(45deg);}
+    75% {-ms-transform: rotate(-45deg);}
+}
+@-o-keyframes preloader {
+    25% {-o-transform: rotate(45deg);}
+    75% {-o-transform: rotate(-45deg);}
+}
+@keyframes preloader {
+    25% {transform: rotate(45deg);}
+    75% {transform: rotate(-45deg);}
+}
+
+.my_main {
+    font-size: 17px;
+}
+
+.my_header {
+    font-size: 45px;
+}
+
+.my_subheader {
+    font-size: 40px;
+}
+
+.my_catalogue1 {
+    font-size: 35px;
+}
+
+.my_catalogue2 {
+    color: black;
+    font-size: 30px;
+}
+
+.my_mail {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my_contact a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px #5cb85c solid;
+    padding: 15px;
+    border-radius: 3%;
+}
+.my_contact a:hover {
+    text-decoration: none;
+    border-radius: 3%;
+    color: white;
+    background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+}
+
+.social {
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+}
+
+.social:hover {
+    transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+}
+
+.my_footer {
+    color: darkgrey;
+    border: 0;
+    font-size: 20px;
+}
