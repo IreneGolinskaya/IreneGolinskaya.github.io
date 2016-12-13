@@ -12,33 +12,44 @@ nav {
     transition: top 0.3s ease-in-out;
 }
 
+.my_brand1 {
+    margin-top: -3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .my_brand {
-    -webkit-animation: preloader 1.3s infinite linear;
-    -moz-animation: preloader 1.3s infinite linear;
-    -ms-animation: preloader 1.3s infinite linear;
-    -o-animation: preloader 1.3s infinite linear;
-    animation: preloader 1.3s infinite linear;
+    animation: preloader 1.5s infinite linear;
+    -webkit-animation: preloader 1.5s infinite linear;
+    -moz-animation: preloader 1.5s infinite linear;
+    -ms-animation: preloader 1.5s infinite linear;
+    -o-animation: preloader 1.5s infinite linear;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
 }
 
 @-webkit-keyframes preloader {
-    25% {-webkit-transform: rotate(45deg);}
-    75% {-webkit-transform: rotate(-45deg);}
+    25% {-webkit-transform: rotate(35deg);}
+    75% {-webkit-transform: rotate(-35deg);}
 }
 @-moz-keyframes preloader {
-    25% {-moz-transform: rotate(45deg);}
-    75% {-moz-transform: rotate(-45deg);}
+    25% {-moz-transform: rotate(35deg);}
+    75% {-moz-transform: rotate(-35deg);}
 }
 @-ms-keyframes preloader {
-    25% {-ms-transform: rotate(45deg);}
-    75% {-ms-transform: rotate(-45deg);}
+    25% {-ms-transform: rotate(35deg);}
+    75% {-ms-transform: rotate(-35deg);}
 }
 @-o-keyframes preloader {
-    25% {-o-transform: rotate(45deg);}
-    75% {-o-transform: rotate(-45deg);}
+    25% {-o-transform: rotate(35deg);}
+    75% {-o-transform: rotate(-35deg);}
 }
 @keyframes preloader {
-    25% {transform: rotate(45deg);}
-    75% {transform: rotate(-45deg);}
+    25% {transform: rotate(35deg);}
+    75% {transform: rotate(-35deg);}
 }
 
 .my_main {
@@ -72,16 +83,16 @@ nav {
 .my_contact a {
     font-size: 20px;
     text-decoration: none;
-    color: black;
-    border: 1px #5cb85c solid;
+    color: white;
     padding: 15px;
     border-radius: 3%;
+    background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
 }
 .my_contact a:hover {
-    text-decoration: none;
-    border-radius: 3%;
-    color: white;
-    background-image: linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+    font-weight: bold;
+    color: black;
+    border: 1px #5cb85c solid;
+    background-image: linear-gradient(white, white);
 }
 
 .social {

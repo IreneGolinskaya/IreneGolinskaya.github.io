@@ -31,8 +31,6 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-
-
 $(document).ready(function(){
     $("#anchors").on("click","a", function (event) {
         event.preventDefault();
